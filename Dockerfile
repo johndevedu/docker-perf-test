@@ -1,4 +1,4 @@
-# example usage: `docker build -f Dockerfile2 --build-arg CACHEBUST=$(date +%s) -t node20 .`
+# example usage: `docker build -f Dockerfile --build-arg CACHEBUST=$(date +%s) -t node20 .`
 
 FROM ubuntu:latest                                                                                                                                                                                            
 
