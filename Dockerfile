@@ -1,3 +1,5 @@
+# example usage: `docker build -f Dockerfile2 --build-arg CACHEBUST=$(date +%s) -t node20 .`
+
 FROM ubuntu:latest                                                                                                                                                                                            
 
 ENV NODE_VERSION=20.15.0
